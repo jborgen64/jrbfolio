@@ -16,6 +16,25 @@
 
 .aboutPage {
   height: 100vh;
-  background-color: lightskyblue;
+  background-image: url('https://cdn.pling.com/img/1/a/7/d/5d6291d4f7be91e68597555bc4e86334f80d.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: lightgrey;
 }
 
+.aboutContent {
+  font-family: 'Fredoka One', cursive;
+  text-align: left;
+  width: 40%;
+  margin-left: 10%;
+  padding-top: 100px;
+}
+
+.aboutContent h1 {
+  font-size: 50px;
+}
+
+.aboutContent p {
+  font-size: 25px;
+}

@@ -10,19 +10,12 @@ function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <Link
-            className='nav-item nav-link active'
-            activeClass='active'
-            to='main'
-            spy={true}
-            smooth={true}
-            duration={500}
-          >main</Link>
 
           <Link
             className='nav-item nav-link active'
             activeClass='active'
             to='about'
+            offset={-50}
             spy={true}
             smooth={true}
             duration={500}
@@ -31,8 +24,19 @@ function Navbar() {
           <Link
             className='nav-item nav-link active'
             activeClass='active'
+            to='main'
+            spy={true}
+            offset={-50}
+            smooth={true}
+            duration={500}
+          >main</Link>
+
+          <Link
+            className='nav-item nav-link active'
+            activeClass='active'
             to='contact'
             spy={true}
+            offset={-50}
             smooth={true}
             duration={500}
           >contact</Link>
