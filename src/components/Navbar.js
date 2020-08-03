@@ -51,16 +51,6 @@ function Navbar() {
             duration={500}
           >contact</Link>
 
-          <Link
-            className='nav-item nav-link active'
-            activeClass='active'
-            to='resume'
-            spy={true}
-            offset={-50}
-            smooth={true}
-            duration={500}
-          >resume</Link>
-
         </div>
       </div>
     </nav>
