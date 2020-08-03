@@ -1,0 +1,22 @@
+[
+   {
+        "id": 1,
+        "name": "Book Reso",
+        "image": "./images/bookReso.png",
+        "link": "https://jborgen64.github.io/Project-1/"
+    },
+    {
+        "id": 2,
+        "name": "Centaur Game Trading Co.",
+        "image": "./images/centaurTradingCo.png",
+        "link": "https://video-game-trader-052020.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Pokedex",
+        "image": "./images/pokedex.png",
+        "link": "https://jrbpokedex.herokuapp.com/"
+    }
+
+   
+]

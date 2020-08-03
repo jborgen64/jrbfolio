@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 function Navbar() {
   return (
 
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -14,9 +14,19 @@ function Navbar() {
           <Link
             className='nav-item nav-link active'
             activeClass='active'
-            to='about'
+            to='home'
             offset={-50}
             spy={true}
+            smooth={true}
+            duration={500}
+          >home</Link>
+
+          <Link
+            className='nav-item nav-link active'
+            activeClass='active'
+            to='about'
+            spy={true}
+            offset={-50}
             smooth={true}
             duration={500}
           >about</Link>
@@ -24,12 +34,12 @@ function Navbar() {
           <Link
             className='nav-item nav-link active'
             activeClass='active'
-            to='main'
+            to='portfolio'
             spy={true}
             offset={-50}
             smooth={true}
             duration={500}
-          >main</Link>
+          >portfolio</Link>
 
           <Link
             className='nav-item nav-link active'
@@ -40,6 +50,16 @@ function Navbar() {
             smooth={true}
             duration={500}
           >contact</Link>
+
+          <Link
+            className='nav-item nav-link active'
+            activeClass='active'
+            to='resume'
+            spy={true}
+            offset={-50}
+            smooth={true}
+            duration={500}
+          >resume</Link>
 
         </div>
       </div>

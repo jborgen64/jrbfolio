@@ -2,19 +2,27 @@
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: turquoise;
+  font-family: 'Raleway', sans-serif;
+  z-index: 1; 
 }
 
-.mainPage {
+.aboutPage {
   height: 100vh;
-  background-color: aquamarine;
+  background-color:	#101010;
+}
+
+.portfolioPage {
+  height: 100vh;
+  background-color: #101010ef;
 }
 
 .contactPage {
   height: 100vh;
-  background-color: palevioletred;
+  background-color: #101010;
 }
 
-.aboutPage {
+.homePage {
   height: 100vh;
   background-image: url('https://cdn.pling.com/img/1/a/7/d/5d6291d4f7be91e68597555bc4e86334f80d.png');
   background-repeat: no-repeat;
@@ -23,18 +31,18 @@
   color: lightgrey;
 }
 
-.aboutContent {
-  font-family: 'Fredoka One', cursive;
+.homeContent {
+  font-family: 'Raleway', sans-serif;
   text-align: left;
   width: 40%;
   margin-left: 10%;
   padding-top: 100px;
 }
 
-.aboutContent h1 {
+.homeContent h1 {
   font-size: 50px;
 }
 
-.aboutContent p {
+.homeContent p {
   font-size: 25px;
 }

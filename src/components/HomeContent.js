@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-function AboutContent() {
+function HomeContent() {
     return (
-        <div className='aboutContent'>
+        <div className='homeContent'>
             <h1>Howdy! My name is Jacob Borgen.</h1>
             <p>
                 I am a full-stack software engineer looking for new opportunites to
@@ -14,4 +14,4 @@ function AboutContent() {
     );
 }
 
-export default AboutContent;
+export default HomeContent;
